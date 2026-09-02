@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(61, 59, 59);
+    color: white;
+    margin: 0;
+}
+header h1{
+    padding: 20px;
+    font-size: medium;
+    font-weight: lighter;
+    margin: 0;
+    min-height: 100px;
+}
+
+nav{
+    margin: 0;
+    max-width: 100%;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li{
+    flex: 1;
+}
+.menu a{
+    display: block;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+.menu a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+main{
+    display: grid;
+    background-color: gray;
+    min-height: 300px;
+    grid-template-columns: 3fr 1fr;
+    margin: 0;
+}
+main aside{
+    background-color: cornsilk;
+}
+
+main h2{
+    font-size: medium;
+    font-weight: lighter;
+    padding: 1rem;
+    margin: 0;
+}
+footer{
+    background-color: rgb(61, 59, 59);
+    min-height: 150px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+h3{
+    font-size: medium;
+    font-weight: lighter;
+    padding: 1rem;
+    margin: 0;
+}
