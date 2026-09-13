@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header, footer{
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+header{
+    padding: 1rem;
+    background-color: blue;
+}
+header > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header p{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+nav a:hover{
+    color: red;
+}
+nav li{
+    padding: 0.5rem;
+}
+nav{
+    display: none;
+}
+nav.open{
+    display: block;
+}
+main{
+    display: grid;
+    max-width: 1300px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+figure{
+    margin: 10px;
+}
+figcaption{
+    text-align: center;
+}
+#menu{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background: transparent;
+    border: none;
+    color: white;
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
