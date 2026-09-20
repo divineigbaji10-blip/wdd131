@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigeria | WDD131</title>
+    <meta name="author" content="Igbaji Divine" />
+    <meta name="description" content="This website is about my country Nigeria.">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/nigeria-large.webp">
+                <img src="images/nigeria-small.webp" alt="View of Nigeria">
+            </picture>
+            <section class="data">
+                <h2>Data</h2>
+                <p>Area: 923,768 sq km</p>
+                <p>Population: 243,200,000</p>
+                <p>Capital: Abuja</p>
+                <p>Languages: English and Indigenous Languages</p>
+                <p>Currency: Nigerian Naira</p>
+                <p>Time Zone: UTC+1</p>
+                <p>Calling Code: +234</p>
+                <p>Internet TLD: .ng</p>
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                <img src="images/weather-icon.svg" alt="Partly Cloudy">
+                <p>Temperature: <span id="temperature">28</span> ℃</p>
+                <p>Conditions: Partly Cloudy</p>
+                <p>Wind: <span id="wind-speed">20</span> km/h</p>
+                <p>Wind Chill: <span id="wind-chill">N/A</span> ℃</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Nigeria</p>
+        <p>Last Modified: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
