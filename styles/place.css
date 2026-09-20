@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+header{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.data,.weather{
+    padding: 1rem;
+    text-align: center;
+}
+.data h2, .weather h2{
+    background-color: green;
+    color: white;
+    padding: 0.75rem;
+}
+.weather img{
+    width: 64px;
+    height: 64px;
+}
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
