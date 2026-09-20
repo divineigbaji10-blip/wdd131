@@ -29,6 +29,8 @@ header{
 .weather img{
     width: 64px;
     height: 64px;
+    margin: 0 auto;
+    display: block;
 }
 footer{
     background-color: green;
