@@ -114,7 +114,7 @@ newLink.addEventListener("click", () => {
   templeContainer.innerHTML = "<h1>New Temples</h1>";
   const newTemples = temples.filter(temple => {
     const year = Number(temple.dedicated.split(",")[0]);
-    return year >= 2000;
+    return year > 2000;
   });
   newTemples.forEach(createTempleCard);
 });
